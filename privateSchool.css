@@ -1,0 +1,36 @@
+
+body{
+    background-image: url("https://brettrowlatt.files.wordpress.com/2013/03/defaultbackgroundimage1.jpg");
+  
+    background-size: cover;
+    height: 100vh;
+    width:100vw;
+    background-repeat: no-repeat;   
+   
+}
+
+section{
+    display: flex;
+    width: 60vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav1:hover, #nav2:hover,#nav3:hover ,#nav4:hover ,#nav5:hover,#nav6:hover,#nav7:hover  {
+
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+
+    border-radius: 10px;
+
+ }
+
+ 
+ button[disabled]{
+     
+    border: 1px solid;
+    font-weight: 500;
+
+    box-shadow: 2px 2px 12px rgba(161, 118, 23, 0.3);
+    
+}

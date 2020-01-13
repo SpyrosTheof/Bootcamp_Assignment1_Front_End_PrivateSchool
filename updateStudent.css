@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background-image: url("https://brettrowlatt.files.wordpress.com/2013/03/defaultbackgroundimage1.jpg");
+  
+    background-size: cover;
+    height: 100vh;
+    width:100vw;
+    background-repeat: no-repeat;   
+    font-size: 16px;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+     align-items: center; 
+
+  
+    
+
+}
+
+ .wrapper{
+
+     display:flex;
+     flex:0 1 auto;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 75vh;
+     /* padding:20px; */
+     border-radius: 3px;
+     width: 40%;
+     line-height: 30px;
+     
+     background-color:rgba(0, 0, 0, 0.9);
+     margin-top: 60px;
+ }
+
+ .navbar{
+     width: 100vw;
+ }
+
+ .registration_form{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     width: 100vw;
+    
+
+    
+     
+ }
+
+ .input_field{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+ }
+
+ .input_field input
+ {
+     font-size: 20px;
+    
+     border-radius: 10px;
+
+     display: block;
+
+     margin-bottom: 5px;
+
+ }
+
+ .wrapper button{
+    
+    padding:3px;
+    margin: 20px 10px;
+    width:100px;
+    font-size: 20px;
+    background: green;
+    border:1px solid black; 
+    border-radius: 3px;
+    margin-left:100px;
+ 
+ }
+.h1{
+    font-size: 40px;
+    text-align: center;
+    
+    color: honeydew;
+    display: inline;
+}
+
+form .button{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+ .input_field label{
+    display:block;
+     font-size: 20px;
+     font-weight: 600;
+     font-family:Arial, Helvetica, sans-serif;
+     color:antiquewhite;
+     
+ }
+
+ #registration{
+     width:180px;
+     margin-left: 5px;
+ }
+
+ #nav1:hover, #nav2:hover,#nav3:hover ,#nav4:hover ,#nav5:hover,#nav6:hover,#nav7:hover  {
+
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+
+    border-radius: 10px;
+
+ }
+
+ 
+ button[disabled]{
+     
+    border: 1px solid;
+    font-weight: 500;
+
+    box-shadow: 2px 2px 12px rgba(161, 118, 23, 0.3);
+    
+}
